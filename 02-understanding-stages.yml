@@ -29,5 +29,7 @@ stages:
     steps:
     - bash: echo QA FirstJob
 - stage: ProdDeploy
-
+  dependeson:
+  - Build
+  - QADeploy
 

@@ -13,10 +13,10 @@ steps:
 - script: echo Hello, world!
   displayName: 'Run a one-line script'
 
-  - task: DownloadSecureFile@1
-    name: publickey
-    inputs:
-      secureFile: 'id_rsa.pub'
+- task: DownloadSecureFile@1
+  name: publickey
+  inputs:
+    secureFile: 'id_rsa.pub'
 
 - task: TerraformCLI@0
   inputs:

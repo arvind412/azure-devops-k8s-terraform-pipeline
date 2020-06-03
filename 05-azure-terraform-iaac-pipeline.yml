@@ -32,15 +32,8 @@ steps:
     ensureBackend: true
     backendAzureRmResourceGroupName: 'terraform-backend-rg'
     backendAzureRmResourceGroupLocation: 'westeurope'
-    backendAzureRmStorageAccountName: 'storageaccountarvindroxx'
-    backendAzureRmContainerName: 'storageaccountarvindcontainer'
-    backendAzureRmKey: 'kubernetes-dev.tfstate'
-    backendType: 'azurerm'
-    backendServiceArm: 'azure-resource-manager-connection'
-    ensureBackend: true
-    backendAzureRmResourceGroupName: 'terraform-backend-rg'
-    backendAzureRmResourceGroupLocation: 'westeurope'
-    backendAzureRmStorageAccountName: 'storageaccountarvindroxx'
-    backendAzureRmContainerName: 'storageaccountarvindcontainer'
-    backendAzureRmKey: 'kubernetes-dev.tfstate'
+    backendAzureRmStorageAccountName: 'storageaccountarvindroxx1'
+    backendAzureRmContainerName: 'storageaccountarvindcontainer1'
+    backendAzureRmKey: 'kubernetes-dev1.tfstate'
+
 

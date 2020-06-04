@@ -23,7 +23,7 @@ steps:
     backendServiceArm: 'azure-kubernete-service-connection'
     ensureBackend: true
     backendAzureRmResourceGroupName: 'terraform-backend-rg'
-    backendAzureRmResourceGroupLocation: 'weateurope'
+    backendAzureRmResourceGroupLocation: 'westeurope'
     backendAzureRmStorageAccountName: 'storageaccountarvindroxx'
     backendAzureRmContainerName: 'storageaccountarvindcontainer'
     backendAzureRmKey: 'kubernetes.dev.tfstate'
